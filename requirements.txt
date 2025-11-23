@@ -1,0 +1,11 @@
+# Dependências para Q-Learning e visualização
+numpy>=1.20
+matplotlib>=3.0
+imageio>=2.0
+
+# Para geração de GIF com fallback (opcional, caso matplotlib falhe)
+# Pillow>=8.0
+
+# Ambiente de RL (instale apenas um dos dois):
+# gymnasium>=0.29  # recomendado
+# gym>=0.26        # alternativa
